@@ -12,6 +12,9 @@
   "engines": {
     "node": "*"
   },
-  "dependencies": {},
+  "dependencies": {
+    "easyrss": "*",
+    "snippets": "*"
+  },
   "devDependencies": {}
 }
