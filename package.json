@@ -22,7 +22,7 @@
     "test":"./test"
   },
   "dependencies": {
-    "easyrss": "*",
+    "easyrss": "git://github.com/jheusala/node-easyrss.git",
     "snippets": "*"
   },
   "devDependencies": {
