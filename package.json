@@ -1,6 +1,6 @@
 {
-  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi> (http://www.jhh.me)",
   "name": "rssee",
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi> (http://www.jhh.me)",
   "description": "Node RSS EventEmitter",
   "version": "0.0.1",
   "homepage": "https://github.com/jheusala/node-rssee",
@@ -12,9 +12,31 @@
   "engines": {
     "node": "*"
   },
+  "bugs": {
+    "mail" : "jheusala@iki.fi",
+    "web" : "https://github.com/jheusala/node-rssee/issues"
+  },
+  "directories": {
+    "lib":"./lib",
+    "examples":"./examples",
+    "test":"./test"
+  },
   "dependencies": {
     "easyrss": "*",
     "snippets": "*"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodeunit": "*",
+    "lint": "*",
+    "rss": "*",
+    "optimist": "*"
+  },
+  "scripts": {
+    "test": "./run-test.sh",
+    "lint": "./run-lint.sh"
+  },
+  "licenses": [{
+    "type": "MIT",
+    "url": "https://github.com/jheusala/node-rssee/blob/master/LICENSE.txt"
+  }]
 }
