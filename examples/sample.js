@@ -1,6 +1,6 @@
 /* */
 
-var rss = require('../lib/rssee.js').create({'interval':300}),
+var rss = require('../lib/rssee.js').create({'interval':15}),
     sys = require('sys');
 
 rss.on('article', function(a) {
