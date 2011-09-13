@@ -2,7 +2,7 @@
   "name": "rssee",
   "author": "Jaakko-Heikki Heusala <jheusala@iki.fi> (http://www.jhh.me)",
   "description": "Node RSS EventEmitter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/jheusala/node-rssee",
   "repository": {
     "type": "git",
