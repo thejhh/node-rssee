@@ -16,6 +16,18 @@ License
 
 MIT-style license, see [INSTALL.txt](http://github.com/jheusala/node-rssee/blob/master/LICENSE.txt).
 
+Dependencies
+------------
+
+This library is using [node-easyrss](https://github.com/drudge/node-easyrss) 
+and [libxmljs](https://github.com/polotek/libxmljs) to parse ATOM/RSS feeds.
+
+In addition to that you need to have `libxml2-dev` and `scons` in your system.
+
+You can install these packages on Debian-based system with command:
+
+	aptitude install scons libxml2-dev
+
 Examples
 --------
 
