@@ -19,7 +19,7 @@ MIT-style license, see [INSTALL.txt](http://github.com/jheusala/node-rssee/blob/
 Examples
 --------
 
-	var rss = require('../lib/rssee.js').create({'interval':15}),
+	var rss = require('../lib/rssee.js').create({'interval':300}),
 	    sys = require('sys');
 	
 	rss.on('article', function(a) {
