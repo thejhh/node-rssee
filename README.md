@@ -19,8 +19,8 @@ MIT-style license, see [INSTALL.txt](http://github.com/jheusala/node-rssee/blob/
 Dependencies
 ------------
 
-This library is using [node-easyrss](https://github.com/drudge/node-easyrss) 
-and [libxmljs](https://github.com/polotek/libxmljs) to parse ATOM/RSS feeds.
+This library is using my forked version (which enabled https urls) of [node-easyrss](https://github.com/jheusala/node-easyrss) 
+(which uses [libxmljs](https://github.com/polotek/libxmljs)) to parse ATOM/RSS feeds.
 
 In addition to that you need to have `libxml2-dev` and `scons` in your system.
 
