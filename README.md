@@ -4,6 +4,7 @@ Node RSS EventEmitter
 Description
 -----------
 
+Simple evented RSS feed reader for Node.js.
 
 Installation for Node.js
 ------------------------
@@ -17,4 +18,13 @@ MIT-style license, see [INSTALL.txt](http://github.com/jheusala/node-rssee/blob/
 
 Examples
 --------
+
+	var rss = require('../lib/rssee.js').create({'interval':15}),
+	    sys = require('sys');
+	
+	rss.on('article', function(a) {
+		console.log('new article received: ' + sys.inspect(a));
+	});
+	
+	rss.start('http://localhost:8080/rss.xml');
 
