@@ -31,7 +31,7 @@ You can install these packages on Debian-based system with command:
 Examples
 --------
 
-	var rss = require('rssee').create({'interval':300}),
+	var rss = require('rssee').create({'interval':300, 'ignore_first_run': true}),
 	    sys = require('sys');
 	
 	rss.on('article', function(a) {
