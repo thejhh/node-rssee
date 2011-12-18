@@ -14,7 +14,7 @@
   },
   "bugs": {
     "mail" : "jheusala@iki.fi",
-    "web" : "https://github.com/jheusala/node-rssee/issues"
+    "url" : "https://github.com/jheusala/node-rssee/issues"
   },
   "directories": {
     "lib":"./lib",
