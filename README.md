@@ -32,10 +32,10 @@ Examples
 --------
 
 	var rss = require('rssee').create({'interval':300, 'ignore_first_run': true}),
-	    sys = require('sys');
+	    util = require('util');
 	
 	rss.on('article', function(a) {
-		console.log('new article received: ' + sys.inspect(a));
+		console.log('new article received: ' + util.inspect(a));
 	});
 	
 	rss.start('http://localhost:8080/rss.xml');
